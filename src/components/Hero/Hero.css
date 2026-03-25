@@ -1,0 +1,38 @@
+.hero {
+  text-align: center;
+  padding: 100px 20px;
+  /* margin-top: 20px; */
+}
+
+.hero h1 {
+  font-size: 52px;     /* ⬆ increased (main change) */
+  font-weight: 800;
+  line-height: 1.3;    /* better spacing between lines */
+}
+
+.hero span {
+  color: #1e4ed8;
+}
+
+.hero p {
+  margin: 25px 0;
+  font-size: 20px;     /* ⬆ slightly bigger */
+  color: #555;
+}
+
+.hero-btn {
+  background: #f97316;
+  color: white;
+  padding: 14px 24px;
+  border: none;
+  cursor: pointer;
+  border-radius: 6px;
+  font-size: 17px;     /* ⬆ bigger button text */
+}
+
+.hero small {
+  display: block;
+  margin-top: 12px;
+  font-size: 14px;
+  color: gray;
+}

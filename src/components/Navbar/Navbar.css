@@ -1,0 +1,106 @@
+/* RESET */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* TOP BAR */
+.topbar {
+  background: #0b1c2c;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 50px;
+  font-size: 15px;   /* ⬆ bigger */
+}
+
+.left {
+  display: flex;
+  gap: 30px;
+  align-items: center;
+}
+
+.phone-item {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.phone-icon {
+  font-size: 14px;
+  color: #9ca3af;
+}
+
+/* RIGHT SIDE */
+.right {
+  display: flex;
+  align-items: center;
+  gap: 22px;
+}
+
+.login {
+  font-size: 15px;
+  cursor: pointer;
+}
+
+/* BUTTON */
+.chat-btn {
+  background: #f97316;
+  border: none;
+  padding: 8px 18px;
+  color: white;
+  border-radius: 5px;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+/* MAIN NAVBAR */
+.main-nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* padding: 25px 50px; */
+}
+
+/* LOGO */
+.logo {
+  font-weight: 800;
+  font-size: 28px;   /* ⬆ big bold */
+  letter-spacing: 1.5px;
+}
+
+/* MENU */
+.main-nav ul {
+  display: flex;
+  gap: 40px;   /* ⬆ more spacing */
+  list-style: none;
+  align-items: center;
+}
+
+/* LINKS */
+.main-nav a {
+  text-decoration: none;
+  color: #111;
+  font-size: 17px;   /* ⬆ bigger */
+  font-weight: 600;
+}
+
+/* HOVER */
+.main-nav a:hover {
+  color: #2563eb;
+}
+
+.logo-img{
+    height:50px;
+    width: auto;
+    object-fit: contain;
+}
+
+.navbar{
+    position: sticky;
+    top:0;
+    z-index: 1000;
+    background: white;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+}
