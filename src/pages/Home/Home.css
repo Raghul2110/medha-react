@@ -306,3 +306,122 @@
     gap: 30px;
   }
 }
+
+/* ============================= */
+/* 🔥 CLOUD SOLUTIONS */
+/* ============================= */
+
+.cloud-section {
+  padding: 80px 20px;
+  text-align: center;
+  background: #ffffff;
+}
+
+.cloud-tag {
+  font-size: 14px;
+  color: #f97316;
+  margin-bottom: 10px;
+}
+
+.cloud-title {
+  font-size: 40px;
+  font-weight: 700;
+  color: #0b1c2c;
+  margin-bottom: 15px;
+}
+
+.cloud-desc {
+  font-size: 16px;
+  color: #64748b;
+  max-width: 600px;
+  margin: auto;
+  margin-bottom: 50px;
+  line-height: 1.6;
+}
+
+/* GRID */
+.cloud-box-container {
+  max-width: 1000px;
+  margin: auto;
+
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 25px;
+}
+
+/* BOX */
+.cloud-box {
+  text-align: left;
+  padding: 25px;
+  border-radius: 12px;
+  border: 1px solid #e2e8f0;
+  background: #f8fafc;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.cloud-box:hover {
+  background: #ffffff;
+  transform: translateY(-5px);
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.08);
+}
+
+.cloud-box h4 {
+  font-size: 18px;
+  color: #0b1c2c;
+  margin-bottom: 10px;
+}
+
+.cloud-box p {
+  font-size: 14px;
+  color: #64748b;
+}
+
+/* RESPONSIVE */
+@media (max-width: 768px) {
+  .cloud-box-container {
+    grid-template-columns: 1fr;
+  }
+}
+
+.cloud-services {
+  text-align: center;
+  padding: 60px 20px;
+}
+
+.cloud-services h2 {
+  font-size: 24px;
+  font-weight: 600;
+  margin-bottom: 30px;
+}
+
+.service-buttons {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 15px;
+  max-width: 900px;
+  margin: auto;
+}
+
+.service-btn {
+  padding: 10px 18px;
+  border: 1px solid #ddd;
+  border-radius: 20px;
+  background: #fff;
+  cursor: pointer;
+  font-size: 14px;
+  transition: 0.3s;
+}
+
+.service-btn:hover {
+  border-color: #ff6a00;
+  color: #ff6a00;
+}
+
+.view-all {
+  margin-top: 25px;
+  color: #ff6a00;
+  cursor: pointer;
+  font-weight: 500;
+}
