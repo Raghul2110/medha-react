@@ -17,7 +17,7 @@ import DedicatedServers from "./pages/Cloud/DedicatedServers";
 import ApplicationHosting from "./pages/Cloud/ApplicationHosting";
 import DatabaseHosting from "./pages/Cloud/DatabaseHosting";
 import PublicCloud from "./pages/Cloud/PublicCloud";
-import PCIDSSHosting from "./pages/cloud/PCIDSSHosting";
+// import PCIDSSHosting from "./pages/cloud/PCIDSSHosting";
 import ColocationService from "./pages/Cloud/ColocationServices";
 import ManagedERPHosting from "./pages/Cloud/ManagedERPHosting";
 import GoogleWorkspace from "./pages/Cloud/GoogleWorkspace";
@@ -62,7 +62,7 @@ function App() {
         <Route path="/azure" element={<MicrosoftAzure />} />
         <Route path="/hipaa-hosting" element={<HIPAACloudHosting />} />
         <Route path="/private-cloud" element={<PrivateCloud />} />
-        <Route path="/pci-hosting" element={<PCIDSSHosting />} />
+        {/* <Route path="/pci-hosting" element={<PCIDSSHosting />} /> */}
         <Route path="/colocation" element={<ColocationService />} />
         <Route path="/erp-hosting" element={<ManagedERPHosting/>} />
         <Route path="/sap-hosting" element={<SAPHosting />} />
