@@ -29,7 +29,7 @@ import ApplicationServer from "./pages/Servers/ApplicationServer";
 import ExchangeServer from "./pages/Servers/ExchangeServer";
 import IISServer from "./pages/Servers/IISServer";
 import MSSQLServer from "./pages/Servers/MSSQLServer";
-import MySQLServer from "./pages/Servers/MySQLServer";
+// import MySQLServer from "./pages/Servers/MySQLServer";
 import SharePointServer from "./pages/Servers/SharePointServer";
 import Virtulization from "./pages/Servers/Virtualization";
 import VMware from "./pages/Servers/VMware";
