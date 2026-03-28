@@ -16,6 +16,25 @@ import VPSHosting from "./pages/Cloud/VPSHosting";
 import DedicatedServers from "./pages/Cloud/DedicatedServers";
 import ApplicationHosting from "./pages/Cloud/ApplicationHosting";
 import DatabaseHosting from "./pages/Cloud/DatabaseHosting";
+import PublicCloud from "./pages/Cloud/PublicCloud";
+import PCIDSSHosting from "./pages/cloud/PCIDSSHosting";
+import ColocationService from "./pages/Cloud/ColocationServices";
+import ManagedERPHosting from "./pages/Cloud/ManagedERPHosting";
+import GoogleWorkspace from "./pages/Cloud/GoogleWorkspace";
+import GoogleCloudPlatform from "./pages/Cloud/GoogleCloudPlatform";
+import ProfessionalServices from "./pages/Professional/professionalServices";
+import WindowsServer from "./pages/Servers/WindowsServer";
+import LinuxServer from "./pages/Servers/LinuxServer";
+import ApplicationServer from "./pages/Servers/ApplicationServer";
+import ExchangeServer from "./pages/Servers/ExchangeServer";
+import IISServer from "./pages/Servers/IISServer";
+import MSSQLServer from "./pages/Servers/MSSQLServer";
+import MySQLServer from "./pages/Servers/MySQLServer";
+import SharePointServer from "./pages/Servers/SharePointServer";
+import Virtulization from "./pages/Servers/Virtualization";
+import VMware from "./pages/Servers/VMware";
+
+
 
 function App() {
   return (
@@ -43,15 +62,29 @@ function App() {
         <Route path="/azure" element={<MicrosoftAzure />} />
         <Route path="/hipaa-hosting" element={<HIPAACloudHosting />} />
         <Route path="/private-cloud" element={<PrivateCloud />} />
-        {/* <Route path="/pci-hosting" element={<PCIDSSH />} /> */}
-        {/* <Route path="/colocation" element={<ColocationHosting />} /> */}
-        {/* <Route path="/erp-hosting" element={<ERP />} /> */}
+        <Route path="/pci-hosting" element={<PCIDSSHosting />} />
+        <Route path="/colocation" element={<ColocationService />} />
+        <Route path="/erp-hosting" element={<ManagedERPHosting/>} />
         <Route path="/sap-hosting" element={<SAPHosting />} />
-        {/* <Route path="/google-workspace" element={<GoogleWorkspace />} /> */}
-        {/* <Route path="/gcp" element={<GoogleCloudPlatform />} /> */}
+        <Route path="/google-workspace" element={<GoogleWorkspace />} />
+        <Route path="/gcp" element={<GoogleCloudPlatform />} />
         <Route path="/app-hosting" element={<ApplicationHosting />} />
         <Route path="/db-hosting" element={<DatabaseHosting />} />
-        {/* <Route path="/public-cloud" element={<PublicCloud />} /> */}
+        <Route path="/public-cloud" element={<PublicCloud/>} />
+
+        {/* For Professional IT Services */}
+
+        <Route path="/professional-services" element={<ProfessionalServices />} />
+        <Route path="/windows-server" element={<WindowsServer />} />
+        <Route path="/linux-server" element={<LinuxServer />} />
+        <Route path="/application-server" element={<ApplicationServer />} />
+        <Route path="/exchange-server" element={<ExchangeServer />} />
+        <Route path="/iis-server" element={<IISServer />} />
+        <Route path="/mssql-server" element={<MSSQLServer />} />
+        {/* <Route path="/mysql-server" element={<MySQLServer />} /> */}
+        <Route path="/sharepoint-server" element={<SharePointServer />} />
+        <Route path="/virtulization-server" element={<Virtulization />} />
+        <Route path="/vmware-server" element={<VMware />} />
 
 
       </Routes>

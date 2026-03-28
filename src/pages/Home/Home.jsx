@@ -1,5 +1,5 @@
 import React from "react";
-import { useNavigate } from "react-router-dom";
+import { useNavigate  , Link } from "react-router-dom";
 import {
   Users,
   Clock,
@@ -32,6 +32,21 @@ function Home() {
           { name: "Database Hosting", path: "/db-hosting" },
           { name: "Public Cloud", path: "/public-cloud" },
         ];
+
+
+        const serverTags=[
+          { name: "Windows Server", path: "/windows-server" },
+          { name: "Linux Server", path: "/linux-server" },
+          { name: "Exchange Server", path: "/exchange-server" },
+          { name: "MS SQL Server", path: "/mssql-server" },
+          { name: "MySQL Server", path: "/mysql-server" },
+          { name: "VMware Server", path: "/vmware-server" },
+          { name: "Virtualization", path: "/virtualization" },
+          { name: "IIS Server", path: "/iis-server" },
+          { name: "SharePoint Server", path: "/sharepoint-server" },
+          { name: "Application Server", path: "/application-server" },
+        ];
+
   return (
     <div className="home-container">
       <Navbar />
@@ -244,15 +259,59 @@ function Home() {
               </button>
             ))}
           </div>
-          <p
+          <Link
+          to="/cloud-hosting"
             className="view-all"
-            onClick={() => navigate("/cloud-solutions")}
           >
             View all cloud solutions →
-          </p>
+          </Link>
         </div>
       </section>
-    
+
+
+      {/* This is Professional IT Services */}
+    <div className="professional-section">
+
+      <p className="breadcrumb">• IT Services & Support</p>
+
+      <h1>Professional IT Services</h1>
+
+      <p className="subtitle">
+        Server crashed on Saturday? Migration failed? We answer in 15 minutes. 24/7.
+      </p>
+
+      <p
+        className="view-services"
+        onClick={() => navigate("/professional-services")}
+      >
+        View all services →
+      </p>
+
+      {/* 🔥 SERVER SUPPORT BOX */}
+      <div className="server-box">
+
+        <h2>Server Support</h2>
+        <p className="small-text">15-minute response • 24/7/365</p>
+
+        <p className="desc">
+          Your server’s down. Call us. We answer in 15 minutes. Not helpdesk, actual admins.
+        </p>
+
+        <div className="tag-container">
+          {serverTags.map((tag, index) => (
+            <span
+              key={index}
+              className="tag"
+              onClick={() => navigate(tag.path)}
+            >
+              {tag.name}
+            </span>
+          ))}
+        </div>
+
+      </div>
+
+    </div>
 
       
 
