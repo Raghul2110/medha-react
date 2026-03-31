@@ -33,7 +33,7 @@ import MSSQLServer from "./pages/Servers/MSSQLServer";
 import SharePointServer from "./pages/Servers/SharePointServer";
 import Virtulization from "./pages/Servers/Virtualization";
 import VMware from "./pages/Servers/VMware";
-
+import WhiteLabelMSP from "./pages/WhiteLabelMSP/WhiteLabelMSP";
 
 
 function App() {
@@ -41,9 +41,9 @@ function App() {
     <BrowserRouter>
       <Routes>
         <Route path="/" element={<Home />} />
-        <Route path="/services" element={<Services />} />
-        <Route path="/contact" element={<Contact />} />
-        <Route path="/white-label-msp" element={<whiteLabelMSP/>}/>
+        <Route path="services" element={<Services />} />
+        <Route path="contact" element={<Contact />} />
+        <Route path="white-label-msp" element={<WhiteLabelMSP/>}/>
         <Route path =""></Route>
         <Route path="/hosting" element={<h1>Hosting Page</h1>} />
         <Route path="/specialty" element={<h1>Specialty Page</h1>} />

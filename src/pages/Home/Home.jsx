@@ -310,11 +310,7 @@ function Home() {
         </div>
 
       </div>
-123
     </div>
-
-      {/* skjhgf */}
-
 </div>
   );
 }

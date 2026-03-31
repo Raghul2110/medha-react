@@ -32,7 +32,7 @@ function Navbar() {
         <img src={logo} alt="Medha Cloud logo" className="logo-img"/>
         {/* <h2 className="logo">MEDHA CLOUD</h2> */}
         <ul>
-          <li><Link to="/services">White Label MSP Services</Link></li>
+          <li><Link to="/white-label-msp">White Label MSP Services</Link></li>
           <li><Link to="/services">Cloud</Link></li>
           <li><Link to="/services">Professional Services</Link></li>
           <li><Link to="/contact">Company</Link></li>
