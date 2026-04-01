@@ -1,7 +1,106 @@
+
+
+.calculator{
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .calci{
+    height: 30px;
+    /* padding: 50px; */
+}
+
+
+.content{
+    display: flex;
+    justify-content: center;
+}
+
+.log{
+  display: flex;
+  /* margin-left: 200px; */
+  /* text-align: center; */
+  justify-content: center;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  gap: 20px;
+}
+
+.person{
+    height: 30px;
+    display: flex;
+    /* gap: 20px; */
+}
+.disk{
     height: 30px;
 
 }
-.person{
-    height: 30px;
+
+.displayFlex {
+  display: flex;
+}
+.calcuu{
+    padding: 20px;
+    padding-bottom: 250px;
+    border: 1px solid rgb(178, 194, 182);
+    margin-left: 160px;
+    border-radius: 10px;
+    width: 500px;
+
+}
+
+
+
+
+.roi {
+  padding: 40px;
+  border: 1px solid rgb(178, 194, 182);
+  margin-left: 50px;
+  border-radius: 10px;
+  width: 500px;
+  /* This stacks the items vertically */
+  display: flex;
+  flex-direction: column; 
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.yourroi {
+  height: 20px;
+  margin-right: 8px;
+  vertical-align: middle;
+}
+
+.percent-text {
+  font-size: 64px;
+  font-weight: bold;
+  margin: 10px 0 5px 0; /* Spacing around the 73% */
+  color: #000;
+}
+
+.helper-text {
+  font-size: 14px;
+  color: #666;
+  margin: 0;
+}
+
+.cost{
+  padding: 20px;
+  border: 1px solid rgb(178, 194, 182);
+  margin-left: 50px;
+  border-radius: 10px;
+  width: 500px;
+  display: flex;
+  flex-direction: column;
+  /* display: flex; */
+  
+}
+
+.roicontainer{
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
 }
