@@ -51,15 +51,15 @@ function App() {
         {/* Route for the Per Device page
         <Route path="per-device" element={<PerDevice />} /> */}
 
-        <Route path =""></Route>
+        {/* <Route path =""></Route> */}
         <Route path="/hosting" element={<h1>Hosting Page</h1>} />
         <Route path="/specialty" element={<h1>Specialty Page</h1>} />
         <Route path="/microsoft" element={<h1>Microsoft Page</h1>} />
         <Route path="/security" element={<h1>Security Page</h1>} />
-        <Route path="/hosting" element={<Hosting />} />
+        <Route path="/hostings" element={<Hosting />} />
         <Route path="/speciality-hosting" element={<SpecialityHosting />} />
         <Route path="/microsoft-solutions" element={<MicrosoftSolutions />} />
-        <Route path="/security" element={<Security />} />
+        <Route path="/securitys" element={<Security />} />
 
         {/* for popular cloud hosting service */}
 

@@ -10,7 +10,7 @@ import {Engineer, PerDevice} from "../../components/Calculator";
 
 
 function WhiteLabelMSP() {
-  const [tab, useTab] = useState("enginner");
+  const [tab, useTab] = useState("engineer");
   return (
     <>
     <Navbar />
