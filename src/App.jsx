@@ -34,6 +34,7 @@ import SharePointServer from "./pages/Servers/SharePointServer";
 import Virtulization from "./pages/Servers/Virtualization";
 import VMware from "./pages/Servers/VMware";
 import {WhiteLabelMSP} from "./pages/WhiteLabelMSP/WhiteLabelMSP";
+import Blog from "./pages/Blogs/Blog"
 
 
 function App() {
@@ -92,6 +93,9 @@ function App() {
         <Route path="/sharepoint-server" element={<SharePointServer />} />
         <Route path="/virtulization-server" element={<Virtulization />} />
         <Route path="/vmware-server" element={<VMware />} />
+
+        {/* for blog */}
+        <Route path="blog/microsoft-365" element={<Blog/>}/>
 
 
       </Routes>

@@ -1,5 +1,7 @@
+import { Link } from "react-router-dom";
 import Navbar from "../../components/Navbar/Navbar";
 import './Contact.css'
+import arrow from '../../assets/arrow.png'
 
 function Contact() {
   return (
@@ -23,6 +25,39 @@ function Contact() {
       <p>Explore our service-aligned blog categories — each one connected to expert services</p>
       <p>and solutions.</p>
       </div>
+    </section>
+
+    <section>
+      
+      <div className="blog1">
+        <Link to="/blog/microsoft-365" className="link">
+        <div className="in">
+        <p> <h3>Microsoft 365</h3>
+          325 articles
+        </p>
+        </div>
+        <div className="in1">
+        <p>Master Microsoft 365 — from
+          <br></br>
+          licensing and plan selection to...
+        </p>
+        </div>
+        
+        <div className="in2"> 
+         {/* <Link>
+        </Link> */}
+        <p>Browse Articles</p>
+         <p style={{fontSize:"12px", paddingLeft:"10px",paddingTop:"5px"}}>  Microsoft 365 Plans & 
+          <br />
+          Pricing</p>
+         </div>
+
+         {/* <Link> */}
+        <img src={arrow} alt="arrow" style={{height : '30px' , paddingLeft : "20px",}}/>
+          {/* </Link> */}
+       </Link>
+      </div>
+      
     </section>
     </>
   )
