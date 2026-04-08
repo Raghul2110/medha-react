@@ -35,6 +35,8 @@ import Virtulization from "./pages/Servers/Virtualization";
 import VMware from "./pages/Servers/VMware";
 import {WhiteLabelMSP} from "./pages/WhiteLabelMSP/WhiteLabelMSP";
 import Blog from "./pages/Blogs/Blog"
+import Microsoft365Statistics from "./article/Microsoft365Statistics";
+
 
 
 function App() {
@@ -97,10 +99,14 @@ function App() {
         {/* for blog */}
         <Route path="blog/microsoft-365" element={<Blog/>}/>
 
+        {/* For Article Pages */}
+        <Route path="blog/microsoft-365-statistics-2026" element={<Microsoft365Statistics/>}/>
+
 
       </Routes>
     </BrowserRouter>
   );
 }
+
 
 export default App;

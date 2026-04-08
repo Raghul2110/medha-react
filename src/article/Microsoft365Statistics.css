@@ -1,0 +1,16 @@
+
+.art1{
+    /* display: flex; */
+    margin-top: 70px;
+    margin-left: 30px;
+}
+
+.art2{
+    border: 1px solid black;
+    border-radius: 10px;
+    width: 150px;
+    padding-left: 22px;
+    color: blue;
+    background-color: rgba(141, 161, 232, 0.8);
+    
+}
